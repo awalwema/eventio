@@ -27,7 +27,7 @@ const Layout: BlitzLayout<Props> = ({ title, maxWidth = 800, children }) => {
         // }
         header={
           <Header height={45} p="xs">
-            <Horizontal debug fullH>
+            <Horizontal fullH>
               <Text fw="bold">Eventio</Text>
             </Horizontal>
           </Header>
